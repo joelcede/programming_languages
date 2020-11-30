@@ -17,15 +17,15 @@ public class CostOfItems {
         System.out.println("total de 125 articulos: "+total(direct));
     }
     //aqui se calcula el total de la ganancia o la perdida
-    public static double total(int x1){
-        return (2.4 * x1) - (50 + 2 * x1) ;
+    public static double total(int x){
+        return (2.4 * x) - (50 + 2 * x) ;
     }
     //aqui solo se calcula la ganancia
-    public static double earningsArticles(int x2){
-        return 2.4 * x2;
+    public static double earningsArticles(int v){
+        return 2.4 * v;
     }
     //aqui solo se calcula lo gastado
-    public static double createdArticules(int x3){
-        return 50 + 2 *x3;
+    public static double createdArticules(int c){
+        return 50 + 2 * c;
     }
 }
