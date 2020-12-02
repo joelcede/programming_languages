@@ -1,25 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b7346b3-3c54-4ec5-b894-b6a5e742a426" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/java/src/CostOfItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/CostOfItems.java" afterDir="false" />
+    <list default="true" id="cf500e85-6e28-4998-9a40-10cde1771403" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java/1/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1kzT4cQjvU10C3Sf7Agrzo16lD5" />
+  <component name="ProjectId" id="1l4l7puwvJhUTwGPFJJZYNR3Jnn" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -28,24 +22,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/java" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.CostOfItems">
-    <configuration name="CostOfItems" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CostOfItems" />
-      <module name="programming" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="zoneTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="zoneTriangle" />
+  <component name="RunManager">
+    <configuration name="CalculateDays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CalculateDays" />
       <module name="programming" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -64,46 +45,23 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CostOfItems" />
-        <item itemvalue="Application.zoneTriangle" />
+        <item itemvalue="Application.CalculateDays" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5b7346b3-3c54-4ec5-b894-b6a5e742a426" name="Default Changelist" comment="" />
-      <created>1606702234788</created>
+      <changelist id="cf500e85-6e28-4998-9a40-10cde1771403" name="Default Changelist" comment="" />
+      <created>1606864079307</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1606702234788</updated>
-      <workItem from="1606702236578" duration="5145000" />
+      <updated>1606864079307</updated>
+      <workItem from="1606864080680" duration="611000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="463" y="139" key="FileChooserDialogImpl" timestamp="1606707516370">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="463" y="139" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1606707516370" />
-    <state width="1323" height="192" key="GridCell.Tab.0.bottom" timestamp="1606707518192">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1606707518192" />
-    <state width="1323" height="192" key="GridCell.Tab.0.center" timestamp="1606707518192">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1606707518192" />
-    <state width="1323" height="192" key="GridCell.Tab.0.left" timestamp="1606707518192">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1606707518192" />
-    <state width="1323" height="192" key="GridCell.Tab.0.right" timestamp="1606707518192">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1606707518192" />
   </component>
 </project>
