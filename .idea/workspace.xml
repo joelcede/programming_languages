@@ -2,13 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf500e85-6e28-4998-9a40-10cde1771403" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java/1/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java se11/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java se11/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java se11/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java se11/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java se11/java11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java se11/src/CalculateDays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java se11/src/CostOfItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java se11/src/VolZonCylinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java se11/src/ZoneTriangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/CalculateDays.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/CalculateDays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programming/CalculateDays.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/programming/CalculateDays.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -20,6 +37,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -58,10 +76,37 @@
       <option name="presentableId" value="Default" />
       <updated>1606864079307</updated>
       <workItem from="1606864080680" duration="611000" />
+      <workItem from="1606945756007" duration="1409000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="502" y="147" key="FileChooserDialogImpl" timestamp="1606947095236">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="502" y="147" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1606947095236" />
+    <state width="1323" height="238" key="GridCell.Tab.0.bottom" timestamp="1606947369373">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="238" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1606947369373" />
+    <state width="1323" height="238" key="GridCell.Tab.0.center" timestamp="1606947369372">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="238" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1606947369372" />
+    <state width="1323" height="238" key="GridCell.Tab.0.left" timestamp="1606947369372">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="238" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1606947369372" />
+    <state width="1323" height="238" key="GridCell.Tab.0.right" timestamp="1606947369373">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="238" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1606947369373" />
+    <state x="313" y="9" key="new project wizard" timestamp="1606947110399">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="313" y="9" key="new project wizard/0.0.1366.768@0.0.1366.768" timestamp="1606947110399" />
   </component>
 </project>
