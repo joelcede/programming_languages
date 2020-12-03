@@ -6,9 +6,9 @@ public class Pyramid {
     public static void main(String[] args) {
         String color = "\033[033m";
         System.out.println(color+"\t*");
-        System.out.println("   ***");
-        System.out.println("  *****");
-        System.out.println(" *******");
+        System.out.println("   * *");
+        System.out.println("  *   *");
+        System.out.println(" *     *");
         System.out.println("*********");
     }
 }
