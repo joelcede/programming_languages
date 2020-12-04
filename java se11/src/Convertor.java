@@ -9,12 +9,12 @@ public class Convertor {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
 
-        double peseta = 166.386; //esto equivale a 1 euro 
+        double peseta = 166.386; //esto equivale a 1 euro
 
         System.out.print("Ingresa la cantidad de Euros: ");
         int euros = s.nextInt();
 
-        System.out.println(euros+" euros equivale a: "+convertir(euros,peseta));
+        System.out.println(euros+" euros equivale a: "+convertir(euros,peseta)+" pesetas");
     }
 
     public static double convertir(int primero,double segundo){
