@@ -1,2 +1,2 @@
 # Programming_Java
-Contiene solo lenguaje java
+Contiene solo lenguaje Python
