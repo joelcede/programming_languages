@@ -79,94 +79,56 @@ public class Horoscopo {
                 System.out.println("Tu signo sodiacal es Capricornio");
                 System.out.println(capricornio);
             }
-        }if ("Febrero".equals(mes)){
-            if (dia <= 22) {
-                System.out.println("Tu signo sodiacal es acuario");
-                System.out.println(acuario);
-            }else {
-                System.out.println("Tu signo sodiacal es picis");
-                System.out.println(picis);
-            }
-        }if ("Marzo".equals(mes)){
-            if (dia <= 22){
-                System.out.println("Tu signo sodiacal es picis");
-                System.out.println(picis);
-            }else{
-                System.out.println("Tu signo sodiacal es Aries");
-                System.out.println(aries);
-            }
-        }if ("Abril".equals(mes)){
-            if (dia <= 22){
-                System.out.println("Tu signo sodiacal es Aries");
-                System.out.println(aries);
-            }else{
-                System.out.println("Tu signo sodiacal es Tauro");
-                System.out.println(tauro);
-            }
-        }if ("Mayo".equals(mes)){
-            if (dia <= 22){
-                System.out.println("Tu signo sodiacal es Tauro");
-                System.out.println(tauro);
-            }else{
-                System.out.println("Tu signo sodiacal es Geminis");
-                System.out.println(geminis);
-            }
-        }if ("Junio".equals(mes)){
-            if (dia <= 22){
-                System.out.println("Tu signo sodiacal es Geminis");
-                System.out.println(geminis);
-            }else{
-                System.out.println("Tu signo sodiacal es Cancer");
-                System.out.println(cancer);
-            }
-        }if ("Julio".equals(mes)){
-            if (dia <= 22){
-                System.out.println("Tu signo sodiacal es Cancer");
-                System.out.println(cancer);
-            }else{
-                System.out.println("Tu signo sodiacal es Leo");
-                System.out.println(leo);
-            }
-        }if ("Agosto".equals(mes)){
-            if (dia <= 22){
-                System.out.println("Tu signo sodiacal es Leo");
-                System.out.println(leo);
-            }else{
-                System.out.println("Tu signo sodiacal es Virgo");
-                System.out.println(virgo);
-            }
-        }if ("Septiembre".equals(mes)){
-            if (dia <= 22){
-                System.out.println("Tu signo sodiacal es Virgo");
-                System.out.println(virgo);
-            }else{
-                System.out.println("Tu signo sodiacal es Libra");
-                System.out.println(libra);
-            }
-        }if ("Obtubre".equals(mes)){
-            if (dia <= 22){
-                System.out.println("Tu signo sodiacal es Libra");
-                System.out.println(libra);
-            }else{
-                System.out.println("Tu signo sodiacal es Escorpio");
-                System.out.println(escorpio);
-            }
-        }if ("Nobiembre".equals(mes)){
-            if (dia <= 22){
-                System.out.println("Tu signo sodiacal es Escorpio");
-                System.out.println(escorpio);
-            }else{
-                System.out.println("Tu signo sodiacal es Sagitario");
-                System.out.println(sagitario);
-            }
-        }if ("Diciembre".equals(mes)){
-            if (dia <= 22){
-                System.out.println("Tu signo sodiacal es Sagitario");
-                System.out.println(sagitario);
-            }else{
-                System.out.println("Tu signo sodiacal es Capricornio");
-                System.out.println(capricornio);
+        }
+        System.out.println(horoscopovar("Marzo", mes, dia,
+                "Picis", picis, "Aries", aries));
+
+        System.out.println(horoscopovar("Febrero", mes, dia,
+                "Acuario", acuario, "Picis", picis));
+
+        System.out.println(horoscopovar("Marzo", mes, dia,
+                "Picis", picis, "Aries", aries));
+
+        System.out.println(horoscopovar("Abril", mes, dia,
+                "Aries", aries, "Tauro", tauro));
+
+        System.out.println(horoscopovar("Mayo", mes, dia,
+                "Tauro", tauro, "Geminis", geminis));
+
+        System.out.println(horoscopovar("Junio", mes, dia,
+                "Geminis", geminis, "Cancer", cancer));
+
+        System.out.println(horoscopovar("Julio", mes, dia,
+                "Cancer", cancer, "Leo", leo));
+
+        System.out.println(horoscopovar("Agosto", mes, dia,
+                "Leo", leo, "Virgo", virgo));
+
+        System.out.println(horoscopovar("Septiembre", mes, dia,
+                "Virgo", virgo, "Libra", libra));
+
+        System.out.println(horoscopovar("Octubre", mes, dia,
+                "Libra", libra, "Escorpio", escorpio));
+
+        System.out.println(horoscopovar("Noviembre", mes, dia,
+                "Escorpio", escorpio, "Sagitario", sagitario));
+        
+        System.out.println(horoscopovar("Diciembre", mes, dia,
+                "Sagitario", sagitario, "merenge", capricornio));
+    }
+    public static boolean horoscopovar(
+                             String mesEquival, String mesEqui, int diaEquival,
+                             String signo1, String mensaje1, String signo2,
+                             String mensaje2) {
+        if (mesEquival.equals(mesEqui)) {
+            if (diaEquival <= 22) {
+                System.out.println("tu signo sodiacal es: " + signo1);
+                System.out.println(mensaje1);
+            } else {
+                System.out.println("tu signo sodiacal es: " + signo2);
+                System.out.println(mensaje2);
             }
         }
+        return false;
     }
 }
