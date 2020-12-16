@@ -1,10 +1,12 @@
 //Muestra los números del 320 al 160, contando de 20 en 20 hacia atrás
-//utilizando un bucle for.
+//utilizando un bucle while.
 public class SaltoDeNumeros {
     public static void main(String[] args) {
-        int numero = 159;
-        for (int i = 320; i >numero; i=i-20) {
-            System.out.println(i);
+        int numeroSuperior = 340;
+        int numeroInferior = 169;
+        while (numeroSuperior > numeroInferior){
+            numeroSuperior = numeroSuperior - 20;
+            System.out.println(numeroSuperior);
         }
     }
 }
