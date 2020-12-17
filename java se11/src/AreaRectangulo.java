@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 /**
  * Escribe un programa que sume, reste, multiplique y divida dos números
- * introducidos por teclado.
+ * introducidos por teclado..
  */
 
 public class AreaRectangulo {
