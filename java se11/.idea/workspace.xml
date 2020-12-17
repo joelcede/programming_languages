@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="a84b2e9b-ba26-4424-a97f-f3a1244ec041" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/java se11.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,9 +32,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
@@ -115,25 +125,33 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="137" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1608175723158" />
-    <state width="1323" height="192" key="GridCell.Tab.0.bottom" timestamp="1608175608771">
+    <state x="723" y="160" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608176658451">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1608175608771" />
-    <state width="1323" height="192" key="GridCell.Tab.0.center" timestamp="1608175608771">
+    <state x="723" y="160" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768@0.0.1366.768" timestamp="1608176658451" />
+    <state x="506" y="96" key="FileChooserDialogImpl" timestamp="1608176509855">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1608175608771" />
-    <state width="1323" height="192" key="GridCell.Tab.0.left" timestamp="1608175608771">
+    <state x="506" y="96" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1608176509855" />
+    <state width="1323" height="192" key="GridCell.Tab.0.bottom" timestamp="1608176706824">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1608175608771" />
-    <state width="1323" height="192" key="GridCell.Tab.0.right" timestamp="1608175608771">
+    <state width="1323" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1608176706824" />
+    <state width="1323" height="192" key="GridCell.Tab.0.center" timestamp="1608176706824">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1608175608771" />
-    <state x="91" y="0" key="SettingsEditor" timestamp="1608175834725">
+    <state width="1323" height="192" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1608176706824" />
+    <state width="1323" height="192" key="GridCell.Tab.0.left" timestamp="1608176706824">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="91" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1608175834725" />
+    <state width="1323" height="192" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1608176706824" />
+    <state width="1323" height="192" key="GridCell.Tab.0.right" timestamp="1608176706824">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1608176706824" />
+    <state x="91" y="0" width="1271" height="710" key="SettingsEditor" timestamp="1608176601712">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="91" y="0" width="1271" height="710" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1608176601712" />
   </component>
 </project>
