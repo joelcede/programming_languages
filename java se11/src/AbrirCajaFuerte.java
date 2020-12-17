@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 /**
  * Realiza el control de acceso a una caja fuerte. La combinación será un
  * número de 4 cifras. El programa nos pedirá la combinación para abrirla. Si no
@@ -11,14 +12,14 @@ public class AbrirCajaFuerte {
         Scanner clave = new Scanner(System.in);
         int combinacion = 1234;
         int intenos = 5;
-        for (int i = 0; i <intenos ; i++) {
+        for (int i = 0; i < intenos; i++) {
             System.out.print("Ingresa la clave de acceso: ");
             int claveAcceso = clave.nextInt();
 
-            if (claveAcceso == combinacion){
+            if (claveAcceso == combinacion) {
                 System.out.println("La caja fuerte se ha abierto satisfactoriamente");
                 break;
-            }else {
+            } else {
                 System.out.println("Lo siento, esa no es la combinación");
             }
         }
