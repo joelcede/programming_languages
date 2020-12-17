@@ -2,7 +2,7 @@ public class ColorText {
     public static void main(String[] args) {
         /**
          * para elegir un color siempre se comienza con:
-         * \003[el numero que se pone representa el color + m.
+         * \003[el numero que se pone representa el color + m..
          * */
 
         String rojo = "\033[31m";

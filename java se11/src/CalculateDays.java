@@ -14,7 +14,7 @@ public class CalculateDays {
         int div3 = cantAnos(res2, dia);
 
 
-        //impresion de los dias representados en años, meses y dias
+        //impresion de los dias representados en años, meses y dias.
         System.out.println(dias+" dia(s) tiene: "+div1+" año(s) con "+div2+" mes(es) y "+div3+" dia(s)");
     }
     //retorno de valores

@@ -5,7 +5,7 @@ import java.util.Scanner;
  * hora (horas y minutos), calcule cuántos minutos faltan para el fin de semana.
  * Se considerará que el fin de semana comienza el viernes a las 15:00h. Se da
  * por hecho que el usuario introducirá un día y hora correctos, anterior al viernes
- * a las 15:00h.
+ * a las 15:00h..
  */
 public class CalcularFinSemana {
     public static void main(String[] args) {

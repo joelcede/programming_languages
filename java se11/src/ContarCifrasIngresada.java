@@ -1,6 +1,6 @@
 import java.util.Scanner;
 //Realiza un programa que nos diga cuántos dígitos tiene un número introducido
-//por teclado.
+//por teclado..
 public class ContarCifrasIngresada {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);

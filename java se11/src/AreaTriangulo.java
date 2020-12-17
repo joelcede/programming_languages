@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /**
- * Escribe un programa que calcule el área de un triángulo.
+ * Escribe un programa que calcule el área de un triángulo..
  */
 public class AreaTriangulo {
     public static void main(String[] args) {

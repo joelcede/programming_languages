@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 /**
  * Escribe un programa que dada una hora determinada (horas y minutos),
- * calcule los segundos que faltan para llegar a la medianoche.
+ * calcule los segundos que faltan para llegar a la medianoche..
  */
 public class CalcularMediaNoche {
     public static void main(String[] args) {

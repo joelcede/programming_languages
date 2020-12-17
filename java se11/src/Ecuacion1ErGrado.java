@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 /**
  * Realiza un programa que resuelva una ecuación de primer grado
- * (del tipo ax + b = 0)
+ * (del tipo ax + b = 0).
  */
 public class Ecuacion1ErGrado {
     public static void main(String[] args) {

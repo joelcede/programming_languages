@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 /**
  * Amplía el programa anterior para que diga la nota del boletín (insuficiente,
- * suficiente, bien, notable o sobresaliente).
+ * suficiente, bien, notable o sobresaliente)..
  */
 public class CalcularMedia {
     public static void main(String[] args) {

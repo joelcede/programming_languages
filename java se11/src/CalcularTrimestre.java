@@ -9,7 +9,7 @@ import java.util.Scanner;
  * que se califica como apto o no apto, por tanto se debe preguntar al usuario
  * ¿Cuál ha sido el resultado de la recuperación? (apto/no apto). Si el
  * resultado de la recuperación es apto, la nota será un 5; en caso contrario, se
- * mantiene la nota media anterior.
+ * mantiene la nota media anterior..
  */
 public class CalcularTrimestre {
     public static void main(String[] args) {

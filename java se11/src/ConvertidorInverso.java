@@ -1,7 +1,7 @@
 import java.util.Scanner;
 /**
  * Realiza un conversor de pesetas a euros. La cantidad de pesetas que se quiere
- * convertir debe ser introducida por teclado.
+ * convertir debe ser introducida por teclado..
  */
 public class ConvertidorInverso {
     public static void main(String[] args) {

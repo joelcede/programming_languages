@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 /**
  * Realiza un programa que pida dos números y que luego muestre el resultado
- * de su multiplicación.
+ * de su multiplicación..
  */
 
 public class Multiplicacion {

@@ -7,7 +7,7 @@ public class CalculateDaysV2 {
         int semana = 7;
         int dia = 1;
 
-        //vuelvo a decir que con while quedaria mejor(?
+        //vuelvo a decir que con while quedaria mejor(?.
         int div1 = cantdias(dias,meses);
         int res1 = divddias(dias,meses);
         int div2 = cantdias(res1,semana);

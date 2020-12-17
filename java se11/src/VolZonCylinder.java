@@ -1,6 +1,6 @@
 public class VolZonCylinder {
     public static void main(String[] args) {
-        //calcule el volumen y el area total de un cilindro de radio 5m y altura 4m.
+        //calcule el volumen y el area total de un cilindro de radio 5m y altura 4m..
         var radio = 5;
         var height = 4;
 

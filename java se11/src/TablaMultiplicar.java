@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-//Muestra la tabla de multiplicar de un número introducido por teclado.
+//Muestra la tabla de multiplicar de un número introducido por teclado..
 
 public class TablaMultiplicar {
     public static void main(String[] args) {

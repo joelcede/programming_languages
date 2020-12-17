@@ -2,7 +2,7 @@
  * El costo mensual C en dolares al fabricar una cantidad x de articulos esta dado por:
  * C = 50 + 2x, mientras que el ingreso por la venta de X articulos esta dada por V = 2.4x
  * a) Calcule la ganacia que se obtendra al fabricar y vender 400 articulos
- * b) Determine cuantos articulos deben fabricarse y venderse para que el ingreso iguale a los gastos.
+ * b) Determine cuantos articulos deben fabricarse y venderse para que el ingreso iguale a los gastos..
  * */
 public class CostOfItems {
     public static void main(String[] args) {

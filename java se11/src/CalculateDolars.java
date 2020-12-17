@@ -1,6 +1,6 @@
 /*
 * Dado un numero entero(cantidad de dolares), mostrar el valor quivalente
-* usando la menor cantidad de billetes de 100,50,20,10,5,1
+* usando la menor cantidad de billetes de 100,50,20,10,5,1.
 *  **/
 public class CalculateDolars {
     public static void main(String[] args) {

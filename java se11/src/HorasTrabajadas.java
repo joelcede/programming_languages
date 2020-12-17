@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 /**
  *Escribe un programa que calcule el salario semanal de un empleado en base
- * a las horas trabajadas, a razón de 12 euros la hora.
+ * a las horas trabajadas, a razón de 12 euros la hora..
  */
 public class HorasTrabajadas {
     public static void main(String[] args) {

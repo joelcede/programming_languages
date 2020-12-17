@@ -1,6 +1,6 @@
 import java.util.Scanner;
 /**
- * Realiza un conversor de Kb a Mb.
+ * Realiza un conversor de Kb a Mb..
  */
 public class ConversorKbMb {
     public static void main(String[] args) {

@@ -1,7 +1,7 @@
 import java.util.Scanner;
 /**
  * Escribe un programa que calcule el volumen de un cono según la fórmula V =
- * ( π * r(2) * h ) / 3
+ * ( π * r(2) * h ) / 3.
  */
 public class VolumenCono {
     public static void main(String[] args) {

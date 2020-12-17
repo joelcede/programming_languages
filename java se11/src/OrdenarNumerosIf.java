@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 /**
  * Escribe un programa que ordene tres números enteros introducidos por
- * teclado.
+ * teclado..
  */
 public class OrdenarNumerosIf {
     public static void main(String[] args) {
