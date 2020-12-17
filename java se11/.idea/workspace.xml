@@ -3,9 +3,26 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="a84b2e9b-ba26-4424-a97f-f3a1244ec041" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/k" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,8 +101,23 @@
       <workItem from="1608172864471" duration="164000" />
       <workItem from="1608174465464" duration="168000" />
       <workItem from="1608174677550" duration="62000" />
-      <workItem from="1608177090632" duration="471000" />
+      <workItem from="1608177090632" duration="603000" />
     </task>
+    <task id="LOCAL-00001" summary="j">
+      <created>1608177649037</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608177649037</updated>
+    </task>
+    <task id="LOCAL-00002" summary="j">
+      <created>1608177720209</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608177720209</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,6 +134,10 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="j" />
+    <option name="LAST_COMMIT_MESSAGE" value="j" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="137" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608175723158">
       <screen x="0" y="0" width="1366" height="768" />
@@ -111,26 +147,30 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="723" y="160" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768@0.0.1366.768" timestamp="1608177441495" />
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1608177719158">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1608177719158" />
     <state x="506" y="96" key="FileChooserDialogImpl" timestamp="1608176509855">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="506" y="96" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1608176509855" />
-    <state width="1323" height="192" key="GridCell.Tab.0.bottom" timestamp="1608177579208">
+    <state width="1323" height="192" key="GridCell.Tab.0.bottom" timestamp="1608177758267">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1608177579208" />
-    <state width="1323" height="192" key="GridCell.Tab.0.center" timestamp="1608177579208">
+    <state width="1323" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1608177758267" />
+    <state width="1323" height="192" key="GridCell.Tab.0.center" timestamp="1608177758266">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1608177579208" />
-    <state width="1323" height="192" key="GridCell.Tab.0.left" timestamp="1608177579208">
+    <state width="1323" height="192" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1608177758266" />
+    <state width="1323" height="192" key="GridCell.Tab.0.left" timestamp="1608177758266">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1608177579208" />
-    <state width="1323" height="192" key="GridCell.Tab.0.right" timestamp="1608177579208">
+    <state width="1323" height="192" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1608177758266" />
+    <state width="1323" height="192" key="GridCell.Tab.0.right" timestamp="1608177758267">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1608177579208" />
+    <state width="1323" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1608177758267" />
     <state x="91" y="0" width="1271" height="710" key="SettingsEditor" timestamp="1608176601712">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
