@@ -22,7 +22,7 @@ public class MostrarNTerminos {
         System.out.print("Escribe hasta que indice se termina: ");
         int indice = s.nextInt();
 
-        //la verda esque casi no entiendo mate pero vi un ejercicio en lenguaje c y lo adapte en java zorry
+        //la verdad es que casi no entiendo mate pero vi un ejercicio en lenguaje c y lo adapte en java zorry
         while (indice > contador){
             contenedor1 = suma(segundo,primer);
             contenedor = segundo;
