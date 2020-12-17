@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1ccc8d2-ab70-4059-974f-a359b905ac4d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a84b2e9b-ba26-4424-a97f-f3a1244ec041" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/out/production/java11/Prueba.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbrirCajaFuerte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AbrirCajaFuerte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AreaRectangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AreaRectangulo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
