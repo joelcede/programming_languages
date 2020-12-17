@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a84b2e9b-ba26-4424-a97f-f3a1244ec041" name="Default Changelist" comment="" />
+    <list default="true" id="a84b2e9b-ba26-4424-a97f-f3a1244ec041" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/java se11.iml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,6 +29,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
@@ -106,6 +111,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="137" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608175723158">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="137" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1608175723158" />
     <state width="1323" height="192" key="GridCell.Tab.0.bottom" timestamp="1608175608771">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -122,5 +131,9 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1323" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1608175608771" />
+    <state x="91" y="0" key="SettingsEditor" timestamp="1608175834725">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="91" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1608175834725" />
   </component>
 </project>
