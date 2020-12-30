@@ -28,7 +28,7 @@ public class DecirParesOrdenados {
         long numUs = s.nextInt();
         System.out.print("Los dígitos pares son: ");
 
-        int div = 10;
+        //int div = 10;
         long numBasura = numUs;
         long reves = 0;
         int numDig = 0;
