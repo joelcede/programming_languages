@@ -7,7 +7,7 @@ import java.util.Scanner;
  * inferiores.
  * Ejemplo:
  * Introduzca la altura de la U: 5
- * 
+ *
  *   *     *
  *   *     *
  *   *     *
