@@ -1,0 +1,3 @@
+left numero;
+
+alert(numero)
