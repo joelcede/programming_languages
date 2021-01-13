@@ -1,0 +1,2 @@
+recipiente = "papel"
+alert(recipiente)
