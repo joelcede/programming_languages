@@ -11,7 +11,7 @@ public class SimularDados {
             int dado2 = ((int)(Math.random()*6)+1);
 
             System.out.println("dado 1: "+dado1+" dado 2: "+dado2);
-            
+
             if (dado1 == dado2){
                 break;
             }
