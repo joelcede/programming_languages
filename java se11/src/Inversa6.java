@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class Inversa6 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
-        
+
         int intentos = 1;
 
         while (intentos < 6){
