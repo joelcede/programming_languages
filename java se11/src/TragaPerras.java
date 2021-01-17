@@ -17,7 +17,7 @@ public class TragaPerras {
         var figura3 = "herradura";
         var figura4 = "campana";
         var figura5 = "limon";
-        
+
         int almacen1=0,almacen2=0,almacen3=0,numero;
 
         for (int i = 1; i < 4; i++) {
