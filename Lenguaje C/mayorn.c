@@ -18,7 +18,7 @@ mayor: El número más grande encontrado hasta el momento.
 #include<stdio.h>
 
 int main(){
-	int contador=1,numero,mayor=0,ventas;
+	int contador=1,numero,mayor=0;
 	
 	while(contador < 11){
 		printf("Introduzca la venta del vendedor %d: ",contador);

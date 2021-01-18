@@ -43,7 +43,7 @@ int main(){
 			printf("cuenta: %d\nLimite de credito: %d\nSaldo: %d\n",saldoInicioMes,limiteCredito,resultado);
 			
 			if (resultado > limiteCredito){
-				printf("Limite de credito excedido");
+				printf("Limite de credito excedido\n");
 			}
 		}
 	}
