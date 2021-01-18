@@ -14,13 +14,14 @@ int main(){
 		
 		if (numero > mayor1){
 			mayor1 = numero;
-			if (numero < mayor1 && numero > mayor2){
-				mayor2 = numero;
-				printf("%d\n",mayor2);
 		}
+		if (numero < mayor1 && numero > mayor2){
+			mayor2 = numero;
+			printf("%d\n",mayor2);
 		}
 		contador++;
 	}
+	//no es como lo queria se asi queda
 	printf("Los 2 numeros mayores son: %d y %d",mayor1, mayor2);
 	
 	return 0;
