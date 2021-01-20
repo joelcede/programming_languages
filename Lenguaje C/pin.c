@@ -5,15 +5,13 @@ Su programa debe trabajar con cuadrados de tamaño entre 1 y 20.*/
 #include<stdio.h>
 
 int main(){
-	int lado,contador=0,contador2=0;
-	int x,y;
-	
+	int lado,contador=0;
+	int y;
 	
 	printf("Escribe un lado del cuadrado(1-20): ");
 	scanf("%d", &lado);
 	
 	y = lado * lado;
-	x = lado - 2;
 	
 	while (contador < y){
 		if (contador%lado==0){
