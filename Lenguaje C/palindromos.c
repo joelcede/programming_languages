@@ -17,7 +17,7 @@ int main(){
 	while (numero > 10000 || numero < 99999 && numero != -1){
 		printf("Escribe un numero de 5 digitos(-1 para terminar): ");
 		scanf("%d", &numero);
-		if (numero != -1){
+		if (numero > 10000 || numero < 99999 && numero != -1){
 			dividir1 = numero/10;
 			modulo1 = numero%10;
 			
@@ -36,7 +36,7 @@ int main(){
 				printf("Es palidromo\n");
 			}else{
 				printf("No es palidromo\n");
-	}	
+			}	
 		}
 	}
 	return 0;
