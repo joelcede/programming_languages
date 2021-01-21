@@ -1,5 +1,5 @@
 import random
-
+"""jUEGO DEL AHORCADO """
 img = ['''
    +---+
    |   |
@@ -100,4 +100,3 @@ def run():
 				print("perdiste, la palabra corecta es: {}".format(palabra_azar))
 				break
 run()
-
