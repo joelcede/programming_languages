@@ -3,12 +3,19 @@ public class MaxMinArray {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         int[] numero = new int[100];
-        int contador = 1;
+        int menor = 500;
+        int mayor = 0;
         String almacen;
-        int almaceni = 0;
 
         for (int i = 0; i < 100; i++) {
             int numAleatorio = ((int)(Math.random()*500));
+
+            if (numAleatorio > mayor){
+                mayor = numAleatorio;
+            }if (numAleatorio < menor){
+                menor = numAleatorio;
+            }
+
             numero[i] = numAleatorio;
         }
         for (int i = 0; i < 100; i++) {
@@ -25,16 +32,11 @@ public class MaxMinArray {
         switch (elegido){
             case 1:
                 for (int i = 0; i < 100; i++) {
-                    if (numero[i] < numero[contador]){
-                        System.out.print(numero[i]+" ");
+                    if (numero[i] == menor){
+
                     }
-                    contador++;
                 }
-                break;
-            case 2:
-                System.out.println("puta");
-                break;
         }
-        System.out.println(almaceni);
+
     }
 }
