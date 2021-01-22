@@ -32,7 +32,6 @@ public class CambiarInicioFinal {
             contenedor2 = numeroArray[posicionF];
             numeroArray[i] = numero;
         }
-        System.out.println(contenedor2);
 
         if ((numeroArray[posicionI] < numeroArray[posicionF])){
 
@@ -50,6 +49,7 @@ public class CambiarInicioFinal {
             }
             contenedor3 = numeroArray[9];
         }
+
         for (int i = 1; i < 10; i++) {
             numeroC[i] = numeroArray[i-1];
 

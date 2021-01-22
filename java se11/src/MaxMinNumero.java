@@ -12,6 +12,7 @@ public class MaxMinNumero {
             System.out.print("Escribe un numero: ");
             int numero = s.nextInt();
             numeros[i] = numero;
+
             if (i == 9){
                 for (int j = 0; j < 10; j++) {
                     System.out.print(numeros[j]+" maximo y minimo ");
