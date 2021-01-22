@@ -5,7 +5,6 @@ public class MaxMinArray {
         int[] numero = new int[100];
         int menor = 500;
         int mayor = 0;
-        String almacen;
 
         for (int i = 0; i < 100; i++) {
             int numAleatorio = ((int)(Math.random()*500));
@@ -18,6 +17,7 @@ public class MaxMinArray {
 
             numero[i] = numAleatorio;
         }
+
         for (int i = 0; i < 100; i++) {
             if (i%25==0){
                 System.out.print("\n");
@@ -32,11 +32,28 @@ public class MaxMinArray {
         switch (elegido){
             case 1:
                 for (int i = 0; i < 100; i++) {
-                    if (numero[i] == menor){
-
+                    if (i%25==0){
+                        System.out.print("\n");
+                    }
+                   if (numero[i] == menor){
+                       System.out.print("**"+menor+"** ");
+                   }else {
+                       System.out.print(numero[i]+" ");
+                   }
+                }
+                break;
+            case 2:
+                for (int i = 0; i < 100; i++) {
+                    if (i%25==0){
+                        System.out.print("\n");
+                    }
+                    if (numero[i] == mayor){
+                        System.out.print("**"+mayor+"** ");
+                    }else {
+                        System.out.print(numero[i]+" ");
                     }
                 }
+                break;
         }
-
     }
 }
