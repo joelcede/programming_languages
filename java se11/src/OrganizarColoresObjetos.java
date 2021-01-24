@@ -2,7 +2,8 @@ import java.util.Scanner;
 public class OrganizarColoresObjetos {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
-        int contador = 0;
+        int contador = 0,contador2= 0;
+        int resultado;
         String[] palabras = new String[8];
         String[] palOrden = new String[8];
         String [] colores = new String[9];
@@ -16,30 +17,20 @@ public class OrganizarColoresObjetos {
 
             for (int j = 0; j < 9; j++) {
                 if (palGen.equals(colores[j])){
-                    contador++;
+                    do {
+                        palOrden[contador] = palGen;
+                        contador++;
+                    }while (contador < 1);
+                    contador2++;
                 }
             }
             palabras[i] = palGen;
         }
-        for (int i = 0; i < 8; i++) {
-            for (int j = 0; j < 9; j++) {
-                if (palabras[i].equals(colores[j])){
-                    for (int k = 0; k < contador; k++) {
-                        palOrden[k] = palabras[i];
-                        if (k == contador-1){
-                            System.out.print(palOrden[k]+" ");
-                        }
-                    }
-                    System.out.println();
-                    for (int k = contador; k < 8; k++) {
-                        System.out.print(palabras[i]+" ");
-                    }
-                }
-            }
-        }
+        System.out.println(contador2);
         System.out.println();
-        for (int i = 0; i < 8; i++) {
-            System.out.println(palOrden[i]+" ");
+        for (int i = 0; i < contador2; i++) {
+            System.out.print(palOrden[i]+" ");
         }
+        //solo puedo ordenar los colores pero no los otros,pd: despues lo termino
     }
 }
