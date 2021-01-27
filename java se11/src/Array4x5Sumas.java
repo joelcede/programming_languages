@@ -1,12 +1,11 @@
-import java.util.Scanner;
 
 /**
- * Modifica el programa anterior de tal forma que los números que se introducen
- * en el array se generen de forma aleatoria (valores entre 100 y 999).
+ Modifica el programa anterior de tal forma que las sumas parciales y la suma
+ total aparezcan en la pantalla con un pequeño retardo, dando la impresión de
+ que el ordenador se queda “pensando” antes de mostrar los números
  */
 public class Array4x5Sumas {
-    public static void main(String[] args) {
-        Scanner s = new Scanner(System.in);
+    public static void main(String[] args) throws InterruptedException {
         int[][] numeros = new int[4][5];
         int suma1F = 0,suma2F=0,suma3F=0,suma4F=0;
         int suma1C=0,suma2C=0,suma3C=0,suma4C=0,suma5C=0;
@@ -14,9 +13,10 @@ public class Array4x5Sumas {
 
         for (int i = 0; i < 4; i++) {
             for (int j = 0; j < 5; j++) {
-                int numRand = ((int)(Math.random()*1000)+100);
+                int numRand = ((int)(Math.random()*899)+100);
                 numeros[i][j] = numRand;
                 if (j%5==0){
+                    Thread.sleep(2*1000);
                     System.out.print("\n");
                 }
                 System.out.print(numeros[i][j]+" ");
@@ -69,15 +69,25 @@ public class Array4x5Sumas {
             }
         }
         total = suma1F+suma2F+suma3F+suma4F+suma1C+suma2C+suma3C+suma4C+suma5C;
+        Thread.sleep(2*1000);
         System.out.print("\nFila 1: "+suma1F+" ");
+        Thread.sleep(2*1000);
         System.out.print("\nFila 2: "+suma2F+" ");
+        Thread.sleep(2*1000);
         System.out.print("\nFila 3: "+suma3F+" ");
+        Thread.sleep(2*1000);
         System.out.print("\nFila 4: "+suma4F+" ");
+        Thread.sleep(2*1000);
         System.out.print("\nColumna 1: "+suma1C+" ");
+        Thread.sleep(2*1000);
         System.out.print("\nColumna 2: "+suma2C+" ");
+        Thread.sleep(2*1000);
         System.out.print("\nColumna 3: "+suma3C+" ");
+        Thread.sleep(2*1000);
         System.out.print("\nColumna 4: "+suma4C+" ");
+        Thread.sleep(2*1000);
         System.out.print("\nColumna 5: "+suma5C+" ");
+        Thread.sleep(5*1000);
         System.out.println("\nTotal: "+total);
     }
 }
