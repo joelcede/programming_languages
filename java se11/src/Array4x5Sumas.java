@@ -1,4 +1,9 @@
 import java.util.Scanner;
+
+/**
+ * Modifica el programa anterior de tal forma que los números que se introducen
+ * en el array se generen de forma aleatoria (valores entre 100 y 999).
+ */
 public class Array4x5Sumas {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
@@ -9,7 +14,7 @@ public class Array4x5Sumas {
 
         for (int i = 0; i < 4; i++) {
             for (int j = 0; j < 5; j++) {
-                int numRand = ((int)(Math.random()*11));
+                int numRand = ((int)(Math.random()*1000)+100);
                 numeros[i][j] = numRand;
                 if (j%5==0){
                     System.out.print("\n");
